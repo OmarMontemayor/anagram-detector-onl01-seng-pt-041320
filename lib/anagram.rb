@@ -1,4 +1,5 @@
 # Your code goes here!
+require 'pry'
 class Anagram
   def initialize(word)
     @word = word
@@ -7,5 +8,6 @@ class Anagram
   def match(anagrams)
     matches = []
     letters = @word.split
+    binding.pry
   end
 end
