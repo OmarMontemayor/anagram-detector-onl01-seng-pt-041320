@@ -6,6 +6,6 @@ class Anagram
   
   def match(anagrams)
     matches = []
-    
+    letters = @word.split
   end
 end
