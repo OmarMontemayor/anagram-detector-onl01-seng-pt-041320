@@ -11,6 +11,5 @@ class Anagram
     anagrams.select do |element|
       letters.sort == element.split("").sort
     end
-    binding.pry
   end
 end
